@@ -7,12 +7,17 @@ Edit more!
 add more details!
 
 
-# Emphasis
+# Markdown (#)
+## Markdown (##)
+### Markdown (###)
 
-*Using * text will be italic*
-_or underscore, will be also italic_
 
-**Using double stars * text will be bold**
-__or double underscores also will be bold__
+# Lists
 
-_You **can** combine them_
+* Item 1
+* Item 2
+  * Item 2a
+  * Item 2b
+  
+  
+
