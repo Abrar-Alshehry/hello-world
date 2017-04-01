@@ -21,7 +21,7 @@ add more details!
   
   
 
-'''php
+```php
 data _null_;
 
 		do i= 1 to 100;
@@ -31,7 +31,7 @@ data _null_;
 		end;
 run;
 
-'''
+```
 
 
 9709  data _null_;
