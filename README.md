@@ -157,5 +157,7 @@ NOTE: DATA statement used (Total process time):
 
 
 ```
+![SAS Loop example](https://github.com/aalshehry-stat6250/hello-world/blob/master/sas.JPG)
+
 
 :floppy_disk:
