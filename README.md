@@ -34,17 +34,8 @@ run;
 ```
 
 
-9709  data _null_;
-9710
-9711          do i= 1 to 100;
-9712              if mod(i,3) =0 then put i & 'Fuzz';
-9713              else if mod(i,5) =0  then put i & '- Buzz';
-9714		  else put i=;
-9715          end;
-9716  run;
 
-
-##the result:
+## The result:
 ```php
 9717  data _null_;
 9718
