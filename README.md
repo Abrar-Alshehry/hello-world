@@ -153,6 +153,42 @@ NOTE: DATA statement used (Total process time):
 
 
 
+i=69 **Fuzz**
+i=70 _Buzz_
+i=71
+i=72 **Fuzz**
+i=73
+i=74
+i=75 **Fuzz**
+i=76
+i=77
+i=78 **Fuzz**
+i=79
+i=80 _Buzz_
+i=81 **Fuzz**
+i=82
+i=83
+i=84 **Fuzz**
+i=85 _Buzz_
+i=86
+i=87 **Fuzz**
+i=88
+i=89
+i=90 **Fuzz**
+i=91
+i=92
+i=93 **Fuzz**
+i=94
+i=95 _Buzz_
+i=96 **Fuzz**
+i=97
+i=98
+i=99 **Fuzz**
+i=100 _Buzz_
+NOTE: DATA statement used (Total process time):
+      real time           0.03 seconds
+      cpu time            0.03 seconds
+
 
 ```
 
