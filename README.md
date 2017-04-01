@@ -39,58 +39,41 @@ run;
 9711          do i= 1 to 100;
 9712              if mod(i,3) =0 then put i & 'Fuzz';
 9713              else if mod(i,5) =0  then put i & '- Buzz';
-9714
+9714		  else put i=;
 9715          end;
 9716  run;
 
+
+##the result:
+```php
+9717  data _null_;
+9718
+9719          do i= 1 to 100;
+9720              if mod(i,3) =0 then put i & 'Fuzz';
+9721              else if mod(i,5) =0  then put i & 'Buzz';
+9722              else put i=;
+9723          end;
+9724  run;
+
+i=1
+i=2
 3 Fuzz
-5 - Buzz
+i=4
+5 Buzz
 6 Fuzz
+i=7
+i=8
 9 Fuzz
-10 - Buzz
+10 Buzz
+i=11
 12 Fuzz
+i=13
+i=14
 15 Fuzz
+i=16
+i=17
 18 Fuzz
-20 - Buzz
-21 Fuzz
-24 Fuzz
-25 - Buzz
-27 Fuzz
-30 Fuzz
-33 Fuzz
-35 - Buzz
-36 Fuzz
-39 Fuzz
-40 - Buzz
-42 Fuzz
-45 Fuzz
-48 Fuzz
-50 - Buzz
-51 Fuzz
-54 Fuzz
-55 - Buzz
-57 Fuzz
-60 Fuzz
-63 Fuzz
-65 - Buzz
-66 Fuzz
-69 Fuzz
-70 - Buzz
-72 Fuzz
-75 Fuzz
-78 Fuzz
-80 - Buzz
-81 Fuzz
-84 Fuzz
-85 - Buzz
-87 Fuzz
-90 Fuzz
-93 Fuzz
-95 - Buzz
-96 Fuzz
-99 Fuzz
-100 - Buzz
-NOTE: DATA statement used (Total process time):
-      real time           0.01 seconds
-      cpu time            0.01 seconds
+i=19
+
+```
 
